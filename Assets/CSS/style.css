@@ -1,0 +1,55 @@
+
+/*   General static    */
+
+div{
+    padding: 50px;
+    border: 2px solid black;
+}
+div>div{
+    background-color: yellowgreen;
+}
+div>div>div{
+    background-color: rgba(74, 51, 224, 0.712);
+}
+div>div>div>div{
+    background-color: chocolate;
+}
+
+/*   Relative    */
+
+div.relative>div>div{
+    position: relative;
+    left: 100px;
+}
+div.relative>div>div>div{
+    position: relative;
+    right: 300px;
+}
+
+/*   Absolue    */
+
+div.absolue{
+    position: relative;
+}
+div.absolue>div>div>div{
+    position: absolute;
+    left: 250px;
+    top: 280px;
+}
+
+/*   Absolute    */
+
+div.absolute{
+    position: relative;
+    background-color: rgb(129, 171, 248);
+}
+div.absolute>div{
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+div.absolute>div>div>div{
+    position: absolute;
+    left: 250px;
+    top: 280px;
+}
