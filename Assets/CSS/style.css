@@ -1,6 +1,9 @@
 
 /*   General static    */
-
+.container{
+    box-shadow: 5px 5px 5px 0px rgba(74, 78, 81, 0.38);
+    background-color: #FFF;
+}
 div{
     padding: 50px;
     border: 2px solid black;

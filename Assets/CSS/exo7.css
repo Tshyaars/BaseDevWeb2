@@ -1,0 +1,31 @@
+
+/* Relative */
+.container{
+    width: 412px;
+    height: 412px;
+}
+div{
+    padding: 50px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+#grey{
+    float: right;
+    background-color: lightgray;
+}
+#green{
+    background-color: yellowgreen;
+    float: left;
+}
+#blue{
+    background-color: rgba(74, 51, 224, 0.712);
+    float: left;
+}
+#chocolat{
+    clear: left;
+    background-color: chocolate;
+}
+#yellow{
+    float: right;
+    background-color: gold;
+}
