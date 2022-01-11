@@ -1,0 +1,38 @@
+
+/* Relative */
+
+div{
+    position: relative;
+    width: 100px;
+    padding: 50px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+div.lightblue{
+    background-color: rgb(129, 171, 248);
+    left: 60px;
+    width: 362px;
+    height: 362px;
+}
+#green{
+    background-color: yellowgreen;
+    top:0px;
+    left:0px;
+}
+#blue{
+    background-color: rgba(74, 51, 224, 0.712);
+    top: -78px;
+    left:28px;
+    z-index: 3;
+}
+#chocolat{
+    background-color: chocolate;
+    top:-104px;
+    left:104px;
+    z-index: 2;
+}
+#yellow{
+    background-color: gold;
+    top: -158px;
+    left:154px;
+}

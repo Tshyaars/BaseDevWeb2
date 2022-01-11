@@ -9,8 +9,10 @@ div{
     border: 2px solid black;
     box-sizing: border-box;
 }
-div.absolute{
+.lightblue{
     background-color: rgb(129, 171, 248);
+}
+div.absolute{
     top:70px;
     left:70px;
     padding: 179px;
@@ -45,11 +47,10 @@ div.relative,div.relative>div{
     width: 100px;
 }
 div.relative{
-    background-color: rgb(129, 171, 248);
     left: 60px;
     padding: 50px;
-    width: 350px;
-    height: 350px;
+    width: 362px;
+    height: 362px;
 }
 .relative>#green{
     top:0px;
@@ -57,13 +58,13 @@ div.relative{
 }
 .relative>#blue{
     top: -104px;
-    left:150px;
+    left:154px;
 }
 .relative>#chocolat{
-    top:-50px;
+    top:-54px;
     left:0px;
 }
 .relative>#yellow{
-    top: -154px;
-    left:150px;
+    top: -158px;
+    left:154px;
 }
